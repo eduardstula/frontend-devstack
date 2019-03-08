@@ -1,0 +1,140 @@
+// stylelint-disable dollar-variable-default, length-zero-no-unit
+
+// Color system
+//
+
+$primary:               #ea078b;
+
+$white:                 #fff;
+$black:                 #000;
+$dark:                  #666;
+
+$body-bg:               $white;
+
+$border-color:          #ccc;
+$input-border-color:    $border-color;
+$hr-border-color:       $border-color;
+
+$box-bg:                #ccc;
+
+$theme-colors: (
+    "primary":    $primary
+);
+
+// Options
+//
+$enable-rounded:    false;
+$border-radius: 0;
+
+
+// Fonts
+//
+$font-family-base:      arial, sans-serif;
+$font-size-base:        1rem;
+
+$headings-font-family:  inherit;
+$headings-font-weight:  700;
+
+$text-muted:            $dark;
+
+$lead-font-size:              1.125rem;
+$lead-font-weight:            400;
+
+
+// Links
+//
+$link-color:        $primary;
+$link-hover-color:  darken($link-color, 15%);
+$link-decoration:   underline;
+
+// Crumbs
+//
+$breadcrumb-color: $link-color;
+$breadcrumb-hover-color: $link-hover-color;
+$breadcrumb-active-color: $text-muted;
+
+
+// Buttons + Forms
+$btn-border-radius: .25rem;
+
+$custom-control-indicator-size: 1.25rem;
+$custom-checkbox-indicator-border-radius: .25rem;
+$custom-control-gutter: 2rem;
+
+
+// Lists
+//
+$list-padding: 30px !default;
+
+
+// Pagination
+//
+$pagination-color:          $link-color;
+$pagination-padding-y:      .5rem;
+$pagination-padding-x:      .75rem;
+$pagination-padding-y-lg:   .5rem;
+$pagination-padding-x-lg:   .75rem;
+
+$pagination-spacing: .25rem;
+
+$pagination-font-size: 1rem;
+$pagination-font-weight: 700;
+
+$pagination-disabled-bg:    $dark;
+$pagination-disabled-color: $white;
+
+// Tables
+//
+$table-cell-padding:        .75rem;
+$table-border-color:        $border-color;
+//$table-dark-bg:             $gray-900;
+//$table-dark-border-color:   lighten($gray-900, 7.5%);
+$table-dark-color:          $body-bg;
+
+// Badge
+//
+$badge-padding-y: .75em;
+$badge-padding-x: 1em;
+$badge-font-size: 80%;
+
+
+// Spacing
+//
+$sizes: (
+    25: 25%,
+    33: 33.3%,
+    50: 50%,
+    66: 66.6%,
+    75: 75%,
+    100: 100%
+);
+
+$spacer: 1rem;
+$spacers: (
+    0: 0,
+    1: ($spacer * .25),
+    2: ($spacer * .5),
+    3: $spacer,
+    4: ($spacer * 2),
+    5: ($spacer * 3),
+    6: ($spacer * 4)
+);
+
+$container-width: 1170px;
+// $container-width: 100%;
+
+$grid-breakpoints: (
+    xs: 0px,
+    sm: 576px,
+    md: 768px,
+    lg: 992px,
+    xl: 1200px
+);
+
+$mq-breakpoints: (
+    sm:  576px,
+    md:  768px,
+    lg:  992px,
+    xl:  1200px
+);
+$mq-show-breakpoints: (sm,md,lg,xl);
